@@ -60,10 +60,10 @@ python guardrails_scanner.py --file prompt.txt --json
 - **Padrão Normativo**: Diretivas de Cibersegurança em IA e OWASP LLM
 - **Organização Mantenedora**: [TAVARDT-Portugal](https://github.com/TAVARDT-Portugal)
 
-## Ecossistema TAVARDT e Portais Oficiais
+## Portais Oficiais
 
 - **Portal Institucional**: [https://ag.tavardt.com/pt/](https://ag.tavardt.com/pt/)
-- **Central de Ferramentas TAVARDT**: [https://tools.tavardt.com/pt/](https://tools.tavardt.com/pt/)
+- **Central de Ferramentas**: [https://tools.tavardt.com/pt/](https://tools.tavardt.com/pt/)
 - **Canal de Atendimento e Apoio Técnico**: [https://ag.tavardt.com/pt/contacto/](https://ag.tavardt.com/pt/contacto/)
 
 ---

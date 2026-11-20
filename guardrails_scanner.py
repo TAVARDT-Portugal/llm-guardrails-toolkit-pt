@@ -15,25 +15,25 @@ import json
 import re
 
 BANNER = "TAVARDT Portugal: Auditor e Sanitizador de Prompts de IA"
-DESC = "Inspeciona prompts de sistema e mensagens de utilizador contra prompt injection e extracoes."
-PROMPT_HELP = "Texto do prompt para auditoria de seguranca"
+DESC = "Inspeciona prompts de sistema e mensagens de utilizador contra prompt injection e extrações."
+PROMPT_HELP = "Texto do prompt para auditoria de segurança"
 FILE_HELP = "Caminho para ficheiro local com o prompt a analisar"
 JSON_HELP = "Apresentar resultado em formato JSON estruturado"
-NO_INPUT_ERR = "Erro: forneca um prompt atraves de --prompt, --file ou stdin."
-SCORE_LABEL = "Indice de Robustez Defensiva"
+NO_INPUT_ERR = "Erro: forneça um prompt através de --prompt, --file ou stdin."
+SCORE_LABEL = "Índice de Robustez Defensiva"
 STATUS_PASS = "CONFORME"
 STATUS_WARN = "AVISO MODERADO"
-STATUS_FAIL = "RISCO CRITICO"
+STATUS_FAIL = "RISCO CRÍTICO"
 THREATS_HEADER = "Vulnerabilidades e Vetores Hostis Detetados"
 NO_THREATS_MSG = "Nenhum vetor hostil de prompt injection identificado."
-FOOTER_PAGES = "Aplicacao Web Oficial no GitHub Pages"
+FOOTER_PAGES = "Aplicação Web Oficial no GitHub Pages"
 FOOTER_PORTAL = "Portal TAVARDT Portugal"
 
-THREAT_DIRECT = "Tentativa de revogacao direta de diretivas do sistema detetada."
-THREAT_LEAK = "Tentativa de extracao de contexto ou prompt de sistema detetada."
-THREAT_TOKENS = "Detecao de delimitadores especiais e tokens de controlo de chat."
-THREAT_EXFIL = "Vetor de exfiltracao de informacao confidencial por imagens markdown."
-THREAT_ROLEPLAY = "Tentativa de quebra de diretivas por simulacao de papel (jailbreak)."
+THREAT_DIRECT = "Tentativa de revogação direta de diretivas do sistema detetada."
+THREAT_LEAK = "Tentativa de extração de contexto ou prompt de sistema detetada."
+THREAT_TOKENS = "Deteção de delimitadores especiais e tokens de controlo de chat."
+THREAT_EXFIL = "Vetor de exfiltração de informação confidencial por imagens markdown."
+THREAT_ROLEPLAY = "Tentativa de quebra de diretivas por simulação de papel (jailbreak)."
 
 def audit_prompt_text(text):
     threats = []

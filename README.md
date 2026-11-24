@@ -5,7 +5,7 @@
 
 Segurança defensiva contra Prompt Injection, extração de instruções de sistema e exfiltração de dados em aplicações de IA.
 
-Desenvolvido e mantido pelo departamento de cibersegurança e inteligência artificial da **TAVARDT Portugal**.
+Desenvolvido e mantido pelo departamento de cibersegurança e inteligência artificial da **TAVARDT**.
 
 ***
 
@@ -56,13 +56,8 @@ python guardrails_scanner.py -file prompt.txt -json
 ## Conformidade e Padrões Técnicos
 
 - **Padrão Normativo**: Diretivas de Cibersegurança em IA e OWASP LLM
-- **Organização Mantenedora**: [TAVARDT-Portugal](https://github.com/TAVARDT-Portugal)
 
-## Portais Oficiais
 
-- **Portal Institucional**: [Portal Institucional](https://ag.tavardt.com/pt/)
-- **Central de Ferramentas**: [Central de Ferramentas](https://tools.tavardt.com/pt/)
-- **Canal de Atendimento e Apoio Técnico**: [https://ag.tavardt.com/pt/contacto/](https://ag.tavardt.com/pt/contacto/)
 
 ***
 

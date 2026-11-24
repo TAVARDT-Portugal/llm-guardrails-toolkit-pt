@@ -55,7 +55,6 @@ python guardrails_scanner.py -file prompt.txt -json
 
 ## Conformidade e Padrões Técnicos
 
-- **Jurisdição**: Portugal
 - **Padrão Normativo**: Diretivas de Cibersegurança em IA e OWASP LLM
 - **Organização Mantenedora**: [TAVARDT-Portugal](https://github.com/TAVARDT-Portugal)
 
@@ -69,3 +68,7 @@ python guardrails_scanner.py -file prompt.txt -json
 
 ### Licença
 Distribuído sob a Licença MIT. Consulte o ficheiro [LICENSE](LICENSE) para mais detalhes.
+
+***
+
+© 2026 TAVARDT. Todos os direitos reservados.

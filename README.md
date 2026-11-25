@@ -6,8 +6,6 @@
 
 **Camada de Proteção Ativa contra Injeção de Prompts, Fuga de Contexto e Exfiltração de Dados em Aplicações de IA**
 
-Desenvolvido e mantido pela divisão de engenharia de defesas adversariais da TAVARDT Portugal.
-
 ***
 
 ## Portais e Demonstração Online
@@ -52,7 +50,7 @@ python3 guardrails_scanner.py -file meuprompt.txt -json
 ***
 
 ### Licença
-Distribuído sob a Licença MIT. Consulte o ficheiro [LICENSE](LICENSE) para obter detalhes completos.
+Distribuído sob a Licença MIT.
 
 ***
 

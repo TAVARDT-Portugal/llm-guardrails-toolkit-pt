@@ -2,8 +2,6 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-5b3cf5.svg)](https://tavardt-portugal.github.io/llm-guardrails-toolkit-pt/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![OWASP LLM](https://img.shields.io/badge/OWASP-LLM01%20Injection-red.svg)](https://owasp.org/)
-[![NIST AI](https://img.shields.io/badge/NIST-AI%20RMF-blue.svg)](https://www.nist.gov/itl/ai-risk-management-framework)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **Camada de Proteção Ativa contra Injeção de Prompts, Fuga de Contexto e Exfiltração de Dados em Aplicações de IA**
@@ -40,7 +38,7 @@ cd llm-guardrails-toolkit-pt
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-python3 scanner.py -json
+python3 guardrails_scanner.py -file meuprompt.txt -json
 ```
 
 ***
@@ -50,6 +48,11 @@ python3 scanner.py -json
 * **Portal Corporativo:** https://ag.tavardt.com/pt/
 * **Suíte de Diagnósticos:** https://tools.tavardt.com/pt/
 * **Contacto Técnico:** https://ag.tavardt.com/pt/contacto/
+
+***
+
+### Licença
+Distribuído sob a Licença MIT. Consulte o ficheiro [LICENSE](LICENSE) para obter detalhes completos.
 
 ***
 
